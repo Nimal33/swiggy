@@ -1,0 +1,338 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.home{
+    background-color: orangered;
+}
+img{
+    width: 40%;
+    height: 70%;
+}
+
+.container{
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    padding: 2rem 7rem;
+}
+
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    font-weight: bolder;
+    font-size: large;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.btn1{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+
+    border: 1px  solid white;
+    
+    
+}
+.btn2{
+    padding: 1.1rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white; 
+}
+ h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/*location*/
+
+
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+    
+}
+.locat{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 12px 0 0 12px;
+}
+input{
+    padding: 1rem;
+    
+
+}
+/*select*/
+.sel{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0px 12px 12px 0px;
+    align-items: center;
+    
+}
+/*search*/
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 5px;
+    width: 500px;
+    height: 70px;
+    
+
+}
+.search-bar{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.search-button{
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.container2{
+
+    display: flex;
+    flex-direction: row;
+    padding: 0 10rem;
+    text-align: center;
+    gap:3rem; 
+    
+   }
+   /*location*/
+   .location-container{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 5px;
+    width: 450px;
+    height: 70px;
+    
+
+}
+.location-bar{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.location-button{
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.location1-button{
+    border: none;
+    background-color: #fff;
+}
+.sel{
+    border: none;
+
+}
+.in1{
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    margin: 50px;
+    justify-content: space-between;
+}
+/*cdimage*/
+.cdimg{
+   display: flex;
+  flex-direction:row;
+    width: 90%;
+    height: 90%;
+    
+    align-items: center;
+  
+}
+.cdimg div>img{
+    width: 90%;
+    height: 100%;
+    display: flex;
+  flex-direction: row;
+  flex: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+/*ordeer food*/
+.order-food{
+    display: flex;
+    flex-direction: row;
+   width: 90%;
+   overflow-x: scroll
+   
+
+}
+.order-food::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.order-food img{
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0 2%;
+}
+/*geroeries*/
+.groceries{
+     padding: 4%;
+     margin: 2%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 50px;
+    overflow-x: scroll;
+}
+.groceries::-webkit-scrollbar{
+    width: 0%;
+    height: 0%;
+}
+
+.item img{
+    height:200px;
+    width:160px;
+   }
+   
+/*booking*/
+.text{
+    margin: 3%
+}
+/*booking*/
+.hotel{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+ .hotel .items{
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+ }
+.items img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+.items h4{
+    font-size: large;
+    align-items: center;
+    font-weight: bolder;
+}
+.items h6{
+    border: 1px solid black ;
+    border-radius: 10px;
+    display: inline;
+    background-color: rgb(207, 197, 197);
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+}
+.button01{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(10, 194, 139);
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button02{
+    border: none;
+    background-color: cyan;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*banner*/
+.banner img{
+    width: 100%;
+    display: flex;
+    
+}
+/*city food delivery*/
+
+.citybtn{
+    
+    padding: 10px;
+    color: rgb(134, 133, 133);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+}
+.button1{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #534a4a;
+    justify-content: center;
+    border: 1px solid rgb(150, 147, 147);
+}
+/*footer*/
+.footer img{
+    width: 40%;
+    height: 70%;
+}
+/*Media quary*/
+@media  screen and (max-width:768px) {
+    .container{
+        width: 70%;
+        display: grid;
+        grid-template-columns: 30%;
+        row-gap: 1%;
+        column-gap: 1%;
+      
+    }
+    
+  }
+  @media  screen and (min-width:768px) and (max-width:1010px){
+    .container{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 30% 30%;
+        
+    }
+  }
